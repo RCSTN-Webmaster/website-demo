@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>District Athletics Network</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <h1>🏫 District Athletics Network</h1>
+    <nav>
+      <button onclick="filterSeason('Fall')">Fall</button>
+      <button onclick="filterSeason('Winter')">Winter</button>
+      <button onclick="filterSeason('Spring')">Spring</button>
+    </nav>
+  </header>
+
+  <main id="postsContainer">Loading updates...</main>
+
+  <script src="fetch-posts.js"></script>
+</body>
+</html>
